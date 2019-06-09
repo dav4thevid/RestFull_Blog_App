@@ -7,7 +7,7 @@ app             = express();
 
 
 //APP CONFIGURATION
-mongoose.connect("mongodb://localhost:27017/restful_blog_app", {useNewUrlParser: true});;
+mongoose.connect("mongodb+srv://dav4thevid:251992@davoucii-ws70a.mongodb.net/test?retryWrites=true&w=majority", {useNewUrlParser: true});;
 app.set('view engine', "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
