@@ -16,6 +16,6 @@
     "express-sanitizer": "^1.0.5",
     "heroku": "^7.25.0",
     "method-override": "^3.0.0",
-    "mongoose": "^5.4.16"
+    "mongoose": "^5.7.5"
   }
 }
